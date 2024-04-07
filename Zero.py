@@ -10,10 +10,10 @@ import datetime, os, speech_recognition as sr, webbrowser
 r = sr.Recognizer()
 
 # Initialize OpenAI client
-openai_api_key = "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"
+openai_api_key = "open_ai_api_key"
 openai_client = OpenAI(api_key=openai_api_key)
 
-elevenlabs_api_key = "e76265afbb9a84dd03dc00faf59f8369"
+elevenlabs_api_key = "Eleven Labs API Key"
 elevenlabs_client = ElevenLabs(api_key=elevenlabs_api_key)
 
 actively_listening: bool = False
